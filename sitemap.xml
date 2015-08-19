@@ -21,6 +21,12 @@
     <loc>http://shangfu.github.io/about/</loc>
   </url>
   <url>
+    <loc>http://shangfu.github.io/blog/categories/test/</loc>
+  </url>
+  <url>
+    <loc>http://shangfu.github.io/blog/categories/test2/</loc>
+  </url>
+  <url>
     <loc>http://shangfu.github.io/blog/tags/hello/</loc>
   </url>
   <url>
@@ -28,11 +34,5 @@
   </url>
   <url>
     <loc>http://shangfu.github.io/blog/tags/hello1/</loc>
-  </url>
-  <url>
-    <loc>http://shangfu.github.io/blog/categories/test/</loc>
-  </url>
-  <url>
-    <loc>http://shangfu.github.io/blog/categories/test2/</loc>
   </url>
 </urlset>
