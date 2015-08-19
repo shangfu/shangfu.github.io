@@ -11,6 +11,15 @@
     <loc>http://shangfu.github.io/</loc>
   </url>
   <url>
+    <loc>http://shangfu.github.io/category/</loc>
+  </url>
+  <url>
     <loc>http://shangfu.github.io/about/</loc>
+  </url>
+  <url>
+    <loc>http://shangfu.github.io/blog/categories/test/</loc>
+  </url>
+  <url>
+    <loc>http://shangfu.github.io/blog/tags/hello/</loc>
   </url>
 </urlset>
