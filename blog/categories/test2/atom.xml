@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[何以算法]]></title>
-  <link href="http://shangfu.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Test2 | 何以算法]]></title>
+  <link href="http://shangfu.github.io/blog/categories/test2/atom.xml" rel="self"/>
   <link href="http://shangfu.github.io/"/>
   <updated>2015-08-19T21:16:48+00:00</updated>
   <id>http://shangfu.github.io/</id>
@@ -18,15 +18,6 @@
     <link href="http://shangfu.github.io/blog/2015/08/19/hello-again/"/>
     <updated>2015-08-19T16:43:17+00:00</updated>
     <id>http://shangfu.github.io/blog/2015/08/19/hello-again</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://shangfu.github.io/blog/2015/08/18/hello-world/"/>
-    <updated>2015-08-18T22:37:40+00:00</updated>
-    <id>http://shangfu.github.io/blog/2015/08/18/hello-world</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>

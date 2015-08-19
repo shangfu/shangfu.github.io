@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[何以算法]]></title>
-  <link href="http://shangfu.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Tag: Hello2 | 何以算法]]></title>
+  <link href="http://shangfu.github.io/blog/tags/hello2/atom.xml" rel="self"/>
   <link href="http://shangfu.github.io/"/>
   <updated>2015-08-19T21:16:48+00:00</updated>
   <id>http://shangfu.github.io/</id>
