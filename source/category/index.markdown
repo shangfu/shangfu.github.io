@@ -8,7 +8,7 @@ footer: true
 
 <div id='Category-cloud'>
     <style>
-    #left,#right {float:left; width:450px}
+    #left,#right {float:left; width:400px}
     </style>
     <div id="main">
         <div id="left">
@@ -27,7 +27,7 @@ footer: true
     </div>
     
     <style>
-    #left,#right {float:left; width:450px}
+    #left,#right {float:left; width:400px}
     </style>
     <div id="main">
         <div id="left">
