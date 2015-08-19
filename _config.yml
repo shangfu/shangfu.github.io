@@ -4,7 +4,7 @@
 
 url: http://shangfu.github.io
 title: 何以算法
-subtitle: 博客
+subtitle: WhyAlgorithm
 author: WhyAlgorithm
 simple_search: https://www.google.com/search
 description:
@@ -91,11 +91,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: whyalgorithm
+disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-56762509-3
 
 # Facebook Like
 facebook_like: false
