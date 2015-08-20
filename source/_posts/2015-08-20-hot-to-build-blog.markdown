@@ -71,7 +71,7 @@ git push origin source
 
 Jekyll和Octopress是类似于Wordpress的平台，可以安装任意主题(Themes)和插件(Plugins)。
 
-1. Jekyl推荐主题在[这里](http://jekyllthemes.org/)。
+1. Jekyl推荐主题在[这里](http://jekyllthemes.org/), 还有各种站点在[这里](https://github.com/jekyll/jekyll/wiki/Sites)。
 2. Octopress推荐主题在这里[这里](https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes), 附带安装命令。这里用的是`whitespace`主题。
 
 插件方面我用了
