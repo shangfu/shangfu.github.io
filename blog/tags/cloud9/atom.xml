@@ -1,122 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>何以算法</title>
-  <meta name="author" content="WhyAlgorithm">
-
-  
-  <meta name="description" content="继“Hello World”后，整理下搭建本Blog的过程，顺便练练手。网上已经有很多相关的教程，
-所以很多地方不再赘述，以引用和个人碰到的问题为主。 本博客使用到的工具有Cloud9 (云端编写环境），Github（云端服务器）以及Octopress模板。 &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://whyalgorithm.com/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="何以算法" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-<link href="//fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" type="text/css">
-<!--- MathJax Configuration -->
-<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-  
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-56762509-3']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
-
-</head>
-
-<body   class="collapse-sidebar sidebar-footer" >
-  <header role="banner"><hgroup>
-  <h1><a href="/">何以算法</a></h1>
-  
-    <h2>WhyAlgorithm</h2>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscribe" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS" target="_blank"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewbox="0 0 100 100"><path class="social" d="M 13.310204,73.332654 C 5.967347,73.332654 0,79.322448 0,86.621428 c 0,7.338776 5.967347,13.262246 13.310204,13.262246 7.370408,0 13.328572,-5.92245 13.328572,-13.262246 0,-7.29898 -5.958164,-13.288774 -13.328572,-13.288774 z M 0.01530612,33.978572 V 53.143878 C 12.493878,53.143878 24.229592,58.02347 33.068368,66.865306 41.894898,75.685714 46.767346,87.47449 46.767346,100 h 19.25 C 66.017346,63.592858 36.4,33.979592 0.01530612,33.978572 l 0,0 z M 0.03877552,0 V 19.17449 C 44.54796,19.17551 80.77551,55.437756 80.77551,100 H 100 C 100,44.87653 55.15102,0 0.03877552,0 z"></path></svg></a></li>
-  
-</ul>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <title><![CDATA[Tag: Cloud9 | 何以算法]]></title>
+  <link href="http://whyalgorithm.com//blog/tags/cloud9/atom.xml" rel="self"/>
+  <link href="http://whyalgorithm.com//"/>
+  <updated>2015-08-20T18:12:57+00:00</updated>
+  <id>http://whyalgorithm.com//</id>
+  <author>
+    <name><![CDATA[WhyAlgorithm]]></name>
     
-      <form action="https://www.google.com/search" method="get">
-        <fieldset role="search">
-          <input type="hidden" name="sitesearch" value="whyalgorithm.com/" />
-    
-          <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-        </fieldset>
-      </form>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
   
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-  <li><a href="/category/">Category</a></li>
-  <li><a href="/about/">About</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/08/20/hot-to-build-blog/">快速搭建Github Page个人博客</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-08-20T14:53:32+00:00'><span class='date'><span class='date-month'>Aug</span> <span class='date-day'>20</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>2:53 pm</span></time>
-        
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>继“Hello World”后，整理下搭建本Blog的过程，顺便练练手。网上已经有很多相关的教程，
+  <entry>
+    <title type="html"><![CDATA[快速搭建Github Page个人博客]]></title>
+    <link href="http://whyalgorithm.com//blog/2015/08/20/hot-to-build-blog/"/>
+    <updated>2015-08-20T14:53:32+00:00</updated>
+    <id>http://whyalgorithm.com//blog/2015/08/20/hot-to-build-blog</id>
+    <content type="html"><![CDATA[<p>继“Hello World”后，整理下搭建本Blog的过程，顺便练练手。网上已经有很多相关的教程，
 所以很多地方不再赘述，以引用和个人碰到的问题为主。</p>
 
 <p>本博客使用到的工具有Cloud9 (云端编写环境），Github（云端服务器）以及Octopress模板。
@@ -154,8 +56,7 @@ rake install
 rake new_post["Hello World"]  # 新建一篇文章
 </code></pre>
 
-<p>添加deploy.sh，以后一键运行发布到Github：</p>
-
+<p>添加deploy.sh，以后一键运行发布到Github：
 <figure class='code'><figcaption><span>deploy.sh </span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -164,15 +65,22 @@ rake new_post["Hello World"]  # 新建一篇文章
 <span class='line-number'>5</span>
 <span class='line-number'>6</span>
 <span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class='sh'><span class='line'>rake generate      <span class="c"># 生成页面</span>
-</span><span class='line'><span class="c">#rake preview      # 如果需要在本地预览生成的结果，预览页http://localhost:4000 </span>
-</span><span class='line'>rake deploy        <span class="c"># 发布到Github中的master分支，即username.github.io真正看到的</span>
-</span><span class='line'><span class="c"># 发布源文件到Github的source分支</span>
-</span><span class='line'>git add .
-</span><span class='line'>git commit -m <span class="s1">&#39;Added About page and first post!&#39;</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>rake generate      <span class="c"># 生成页面&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'>&lt;h1&gt;rake preview      <span class="c"># 如果需要在本地预览生成的结果，预览页&lt;a href=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt;&lt;/h1&gt;</span>
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;rake deploy        <span class="c"># 发布到Github中的master分支，即username.github.io真正看到的&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'>&lt;h1&gt;发布源文件到Github的source分支&lt;/h1&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;git add .
+</span><span class='line'>git commit -m <span class="p">&amp;</span>lsquo<span class="p">;</span>Added About page and first post!<span class="p">&amp;</span>rsquo<span class="p">;</span>
 </span><span class='line'>git push origin <span class="nb">source</span>
-</span></code></pre></td></tr></table></div></figure>
-
+</span></code></pre></td></tr></table></div></figure></p>
 
 <p>以后每次新建一个post，然后在<code>octopress/source/_posts/</code> 下书写markdown，发布即可。
 如果要在Clou9本地生成预览结果，需要稍微修改一下<code>Rakefile</code>文件。</p>
@@ -224,7 +132,7 @@ rackupPid = Process.spawn("rackup --host #{server_host} --port #{server_port}")
 
 <p>另外由于我的主题没有设置边栏(asides)，所以我新建了一个page来显示categories和tags的结果。</p>
 
-<figure class='code'><figcaption><span>category/index.markdown </span></figcaption>
+<h2><figure class='code'><figcaption><span>category/index.markdown </span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -276,13 +184,20 @@ rackupPid = Process.spawn("rackup --host #{server_host} --port #{server_port}")
 <span class='line-number'>49</span>
 <span class='line-number'>50</span>
 <span class='line-number'>51</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'>---
-</span><span class='line'>layout: page
-</span><span class='line'>title: &quot;category&quot;
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;/h2&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;p&gt;</span>layout: page
+</span><span class='line'>title: <span class="ni">&amp;ldquo;</span>category<span class="ni">&amp;rdquo;</span>
 </span><span class='line'>comments: false
-</span><span class='line'>sharing: false
-</span><span class='line'>footer: true
-</span><span class='line'>---
+</span><span class='line'>sharing: false<span class="nt">&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;h2&gt;</span>footer: true<span class="nt">&lt;/h2&gt;</span>
+</span><span class='line'>
 </span><span class='line'><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&#39;Category-cloud&#39;</span><span class="nt">&gt;</span>
 </span><span class='line'>    <span class="nt">&lt;style&gt;</span>
 </span><span class='line'>    <span class="nf">#left</span><span class="o">,</span><span class="nf">#right</span> <span class="p">{</span><span class="k">float</span><span class="o">:</span><span class="k">left</span><span class="p">;</span> <span class="k">width</span><span class="o">:</span><span class="m">400px</span><span class="p">}</span>
@@ -327,8 +242,10 @@ rackupPid = Process.spawn("rackup --host #{server_host} --port #{server_port}")
 </span><span class='line'>        <span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">&quot;clear:both&quot;</span><span class="nt">&gt;&lt;/div&gt;</span>
 </span><span class='line'>    <span class="nt">&lt;/div&gt;</span>
 </span><span class='line'><span class="nt">&lt;/div&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
-
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;p&gt;</span>
+</span></code></pre></td></tr></table></div></figure></p>
 
 <h3>Bug</h3>
 
@@ -338,7 +255,7 @@ rackupPid = Process.spawn("rackup --host #{server_host} --port #{server_port}")
 
 <p>解决办法是在 <code>plugins/tag_list.rb</code> 中修改代码：</p>
 
-<figure class='code'><figcaption><span>plugins/tag_list.rb </span></figcaption>
+<p><figure class='code'><figcaption><span>plugins/tag_list.rb </span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -349,18 +266,21 @@ rackupPid = Process.spawn("rackup --host #{server_host} --port #{server_port}")
 <span class='line-number'>8</span>
 <span class='line-number'>9</span>
 <span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
 </pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="n">weighted</span> <span class="o">=</span> <span class="n">count</span><span class="o">.</span><span class="n">map</span> <span class="k">do</span> <span class="o">|</span><span class="nb">name</span><span class="p">,</span> <span class="n">count</span><span class="o">|</span>
-</span><span class='line'>  <span class="c1"># logarithmic distribution</span>
-</span><span class='line'><span class="c1">#  weight = (Math.log(count) - Math.log(min))/(Math.log(max) - Math.log(min))</span>
-</span><span class='line'>   <span class="k">if</span> <span class="n">min</span> <span class="o">==</span> <span class="n">max</span>   <span class="c1">#ADDED</span>
-</span><span class='line'>      <span class="n">weight</span> <span class="o">=</span> <span class="mi">1</span>    <span class="c1">#ADDED</span>
-</span><span class='line'>   <span class="k">else</span>            <span class="c1">#ADDED</span>
-</span><span class='line'>      <span class="n">weight</span> <span class="o">=</span> <span class="p">(</span><span class="no">Math</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">count</span><span class="p">)</span> <span class="o">-</span> <span class="no">Math</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">min</span><span class="p">))</span><span class="o">/</span><span class="p">(</span><span class="no">Math</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">max</span><span class="p">)</span> <span class="o">-</span> <span class="no">Math</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">min</span><span class="p">))</span> <span class="c1">#ADDED</span>
+</span><span class='line'>  <span class="c1"># logarithmic distribution&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">h1</span><span class="o">&gt;</span><span class="n">weight</span> <span class="o">=</span> <span class="p">(</span><span class="no">Math</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">count</span><span class="p">)</span> <span class="o">-</span> <span class="no">Math</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">min</span><span class="p">))</span><span class="o">/</span><span class="p">(</span><span class="no">Math</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">max</span><span class="p">)</span> <span class="o">-</span> <span class="no">Math</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">min</span><span class="p">))</span><span class="o">&lt;</span><span class="sr">/h1&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;p&gt;   if min == max   #ADDED</span>
+</span><span class='line'><span class="sr">      weight = 1    #ADDED</span>
+</span><span class='line'><span class="sr">   else            #ADDED</span>
+</span><span class='line'><span class="sr">      weight = (Math.log(count) - Math.log(min))/</span><span class="p">(</span><span class="no">Math</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">max</span><span class="p">)</span> <span class="o">-</span> <span class="no">Math</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">min</span><span class="p">))</span> <span class="c1">#ADDED</span>
 </span><span class='line'>   <span class="k">end</span>             <span class="c1">#ADDED</span>
 </span><span class='line'>  <span class="o">[</span><span class="nb">name</span><span class="p">,</span> <span class="n">weight</span><span class="o">]</span>
 </span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
-
+</span></code></pre></td></tr></table></div></figure></p>
 
 <h3>5. 开始使用</h3>
 
@@ -393,100 +313,7 @@ tags: [Blog, Cloud9, Github, Octopress]
 <li>耐心等待一会儿。</li>
 </ol>
 
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/08/18/hello-world/">Hello World</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-08-18T22:37:40+00:00'><span class='date'><span class='date-month'>Aug</span> <span class='date-day'>18</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>10:37 pm</span></time>
-        
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">
-</div>
-  
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2015 - WhyAlgorithm -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a> | Themed with <a href="https://github.com/lucaslew/whitespace">Whitespace</a></span>
-</p>
-
-</footer>
-  
-
-<script type="text/javascript">
-      var disqus_shortname = 'whyalgorithm';
-      
-        
-        var disqus_script = 'count.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
-
-
-
-
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>

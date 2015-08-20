@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: http://shangfu.github.io/sitemap.xml
+Sitemap: http://whyalgorithm.com//sitemap.xml
