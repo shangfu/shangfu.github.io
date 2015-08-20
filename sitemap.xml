@@ -21,9 +21,6 @@
     <loc>http://whyalgorithm.com//about/</loc>
   </url>
   <url>
-    <loc>http://whyalgorithm.com//blog/categories/technic/</loc>
-  </url>
-  <url>
     <loc>http://whyalgorithm.com//blog/tags/blog/</loc>
   </url>
   <url>
@@ -34,5 +31,8 @@
   </url>
   <url>
     <loc>http://whyalgorithm.com//blog/tags/octopress/</loc>
+  </url>
+  <url>
+    <loc>http://whyalgorithm.com//blog/categories/technic/</loc>
   </url>
 </urlset>

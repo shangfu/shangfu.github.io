@@ -4,7 +4,7 @@
   <title><![CDATA[何以算法]]></title>
   <link href="http://whyalgorithm.com//atom.xml" rel="self"/>
   <link href="http://whyalgorithm.com//"/>
-  <updated>2015-08-20T18:12:57+00:00</updated>
+  <updated>2015-08-20T19:49:54+00:00</updated>
   <id>http://whyalgorithm.com//</id>
   <author>
     <name><![CDATA[WhyAlgorithm]]></name>
@@ -98,7 +98,7 @@ rackupPid = Process.spawn("rackup --host #{server_host} --port #{server_port}")
 <p>Jekyll和Octopress是类似于Wordpress的平台，可以安装任意主题(Themes)和插件(Plugins)。</p>
 
 <ol>
-<li>Jekyl推荐主题在<a href="http://jekyllthemes.org/">这里</a>。</li>
+<li>Jekyl推荐主题在<a href="http://jekyllthemes.org/">这里</a>, 还有各种站点在<a href="https://github.com/jekyll/jekyll/wiki/Sites">这里</a>。</li>
 <li>Octopress推荐主题在这里<a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">这里</a>, 附带安装命令。这里用的是<code>whitespace</code>主题。</li>
 </ol>
 
