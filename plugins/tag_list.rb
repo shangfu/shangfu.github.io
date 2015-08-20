@@ -66,7 +66,13 @@ module Jekyll
       # map: [[tag name, tag count]] -> [[tag name, tag weight]]
       weighted = count.map do |name, count|
         # logarithmic distribution
-        weight = (Math.log(count) - Math.log(min))/(Math.log(max) - Math.log(min))
+#        weight = (Math.log(count) - Math.log(min))/(Math.log(max) - Math.log(min))
+         if min == max   #ADDED MYSELF
+            weight = 1    #ADDED MYSELF
+         else            #ADDED MYSELF
+            weight = (Math.log(count) - Math.log(min))/(Math.log(max) - Math.log(min))
+         end             #ADDED MYSELF
+
         [name, weight]
       end
 
