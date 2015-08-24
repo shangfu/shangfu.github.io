@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: GIS | 何以算法]]></title>
+  <link href="http://whyalgorithm.com//blog/tags/gis/atom.xml" rel="self"/>
+  <link href="http://whyalgorithm.com//"/>
+  <updated>2015-08-24T19:47:12+00:00</updated>
+  <id>http://whyalgorithm.com//</id>
+  <author>
+    <name><![CDATA[WhyAlgorithm]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Accessibility Metric]]></title>
+    <link href="http://whyalgorithm.com//blog/2015/08/21/how-to-define-accessibility/"/>
+    <updated>2015-08-21T18:47:49+00:00</updated>
+    <id>http://whyalgorithm.com//blog/2015/08/21/how-to-define-accessibility</id>
+    <content type="html"><![CDATA[<div align="middle">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fxxDzLNGeoU" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+<h3>Notes</h3>
+
+<ul>
+<li><p>State Smart Transportation Initiative (<a href="http://www.ssti.us">SSTI</a>)</p></li>
+<li><p>Example: how many jobs can be accessed within X minitues by bus/transit/auto. We can draw an accessibility intensity distribution.
+Furthermore, draw the intensity distribution every minute varying the traffic from 7am-9am, and then average them to get
+the picture about accessibility in traffic.</p></li>
+<li><p>$$
+Accessibility~Score = \sum \frac{Opportunities}{Travel~Time \times Decay}
+$$
+where: <strong>Opportunities</strong> is number of jobs (or something), <strong>Decay</strong> is the factor reflecting decrease in value of opportunity that
+are further away, which is different for each travel model.</p></li>
+<li><p>Problem about analytic tool support:</p>
+
+<blockquote><p>Existing tools lack sensitivity for complex planning and programming needs.</p></blockquote></li>
+<li><p>NCHRP 8-78 Accessibility Model => Multimodel accessibility (MMA). These new tools can be stand-alone scenario planning tools or to <strong>supplement state/MPO TAZ model</strong>.</p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

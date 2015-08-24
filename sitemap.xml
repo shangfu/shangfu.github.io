@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://whyalgorithm.com//blog/2015/08/20/hot-to-build-blog/</loc>
+    <loc>http://whyalgorithm.com//blog/2015/08/21/how-to-define-accessibility/</loc>
+    <lastmod>2015-08-21T18:47:49+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://whyalgorithm.com//blog/2015/08/20/how-to-build-blog/</loc>
     <lastmod>2015-08-20T14:53:32+00:00</lastmod>
   </url>
   <url>
@@ -33,6 +37,15 @@
     <loc>http://whyalgorithm.com//blog/tags/octopress/</loc>
   </url>
   <url>
+    <loc>http://whyalgorithm.com//blog/tags/gis/</loc>
+  </url>
+  <url>
+    <loc>http://whyalgorithm.com//blog/tags/accessibility/</loc>
+  </url>
+  <url>
     <loc>http://whyalgorithm.com//blog/categories/technic/</loc>
+  </url>
+  <url>
+    <loc>http://whyalgorithm.com//blog/categories/research/</loc>
   </url>
 </urlset>
