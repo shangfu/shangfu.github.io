@@ -25,6 +25,12 @@
     <loc>http://whyalgorithm.com//about/</loc>
   </url>
   <url>
+    <loc>http://whyalgorithm.com//blog/categories/technic/</loc>
+  </url>
+  <url>
+    <loc>http://whyalgorithm.com//blog/categories/research/</loc>
+  </url>
+  <url>
     <loc>http://whyalgorithm.com//blog/tags/blog/</loc>
   </url>
   <url>
@@ -41,11 +47,5 @@
   </url>
   <url>
     <loc>http://whyalgorithm.com//blog/tags/accessibility/</loc>
-  </url>
-  <url>
-    <loc>http://whyalgorithm.com//blog/categories/technic/</loc>
-  </url>
-  <url>
-    <loc>http://whyalgorithm.com//blog/categories/research/</loc>
   </url>
 </urlset>

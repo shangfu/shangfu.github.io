@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: Octopress | 何以算法]]></title>
   <link href="http://whyalgorithm.com//blog/tags/octopress/atom.xml" rel="self"/>
   <link href="http://whyalgorithm.com//"/>
-  <updated>2015-08-24T19:47:12+00:00</updated>
+  <updated>2015-08-26T02:13:50+00:00</updated>
   <id>http://whyalgorithm.com//</id>
   <author>
     <name><![CDATA[WhyAlgorithm]]></name>
@@ -130,9 +130,9 @@ rackupPid = Process.spawn("rackup --host #{server_host} --port #{server_port}")
 </ol>
 
 
-<p>另外由于我的主题没有设置边栏(asides)，所以我新建了一个page来显示categories和tags的结果。</p>
+<p>另外由于我的主题没有设置边栏(asides)，所以我新建了一个page, named category, 来显示categories和tags的结果。</p>
 
-<h2><figure class='code'><figcaption><span>category/index.markdown </span></figcaption>
+<p><figure class='code'><figcaption><span>category/index.markdown </span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -186,13 +186,9 @@ rackupPid = Process.spawn("rackup --host #{server_host} --port #{server_port}")
 <span class='line-number'>51</span>
 <span class='line-number'>52</span>
 <span class='line-number'>53</span>
-<span class='line-number'>54</span>
-<span class='line-number'>55</span>
-<span class='line-number'>56</span>
-<span class='line-number'>57</span>
-<span class='line-number'>58</span>
-<span class='line-number'>59</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;/h2&gt;</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;h2&gt;&lt;/h2&gt;</span>
 </span><span class='line'>
 </span><span class='line'><span class="nt">&lt;p&gt;</span>layout: page
 </span><span class='line'>title: <span class="ni">&amp;ldquo;</span>category<span class="ni">&amp;rdquo;</span>
@@ -209,21 +205,13 @@ rackupPid = Process.spawn("rackup --host #{server_host} --port #{server_port}")
 </span><span class='line'>        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;left&quot;</span><span class="nt">&gt;</span>
 </span><span class='line'>             <span class="nt">&lt;h1&gt;</span>Category List<span class="nt">&lt;/h1&gt;</span>
 </span><span class='line'>             <span class="nt">&lt;ul</span> <span class="na">id=</span><span class="s">&quot;categories&quot;</span><span class="nt">&gt;</span>
-</span><span class='line'>                 <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&#39;category&#39;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&#39;/blog/categories/research/&#39;</span><span class="nt">&gt;</span>research (1)<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-</span><span class='line'><span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&#39;category&#39;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&#39;/blog/categories/technic/&#39;</span><span class="nt">&gt;</span>technic (1)<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-</span><span class='line'>
+</span><span class='line'>                 {% category_list %}
 </span><span class='line'>             <span class="nt">&lt;/ul&gt;</span>
 </span><span class='line'>        <span class="nt">&lt;/div&gt;</span>
 </span><span class='line'>        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;right&quot;</span><span class="nt">&gt;</span>
 </span><span class='line'>            <span class="nt">&lt;h1&gt;</span>Tag List<span class="nt">&lt;/h1&gt;</span>
 </span><span class='line'>            <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;tag-cloud&quot;</span><span class="nt">&gt;</span>
-</span><span class='line'>                <span class="nt">&lt;a</span> <span class="na">style=</span><span class="s">&quot;font-size: 210%&quot;</span> <span class="na">href=</span><span class="s">&quot;/blog/tags/accessibility/&quot;</span><span class="nt">&gt;</span>Accessibility<span class="nt">&lt;/a&gt;</span>
-</span><span class='line'><span class="nt">&lt;a</span> <span class="na">style=</span><span class="s">&quot;font-size: 210%&quot;</span> <span class="na">href=</span><span class="s">&quot;/blog/tags/blog/&quot;</span><span class="nt">&gt;</span>Blog<span class="nt">&lt;/a&gt;</span>
-</span><span class='line'><span class="nt">&lt;a</span> <span class="na">style=</span><span class="s">&quot;font-size: 210%&quot;</span> <span class="na">href=</span><span class="s">&quot;/blog/tags/cloud9/&quot;</span><span class="nt">&gt;</span>Cloud9<span class="nt">&lt;/a&gt;</span>
-</span><span class='line'><span class="nt">&lt;a</span> <span class="na">style=</span><span class="s">&quot;font-size: 210%&quot;</span> <span class="na">href=</span><span class="s">&quot;/blog/tags/gis/&quot;</span><span class="nt">&gt;</span>GIS<span class="nt">&lt;/a&gt;</span>
-</span><span class='line'><span class="nt">&lt;a</span> <span class="na">style=</span><span class="s">&quot;font-size: 210%&quot;</span> <span class="na">href=</span><span class="s">&quot;/blog/tags/github/&quot;</span><span class="nt">&gt;</span>Github<span class="nt">&lt;/a&gt;</span>
-</span><span class='line'><span class="nt">&lt;a</span> <span class="na">style=</span><span class="s">&quot;font-size: 210%&quot;</span> <span class="na">href=</span><span class="s">&quot;/blog/tags/octopress/&quot;</span><span class="nt">&gt;</span>Octopress<span class="nt">&lt;/a&gt;</span>
-</span><span class='line'>
+</span><span class='line'>                {% tag_list font-size: 90-210%, limit: 10, style: para %}
 </span><span class='line'>            <span class="nt">&lt;/ul&gt;</span>
 </span><span class='line'>        <span class="nt">&lt;/div&gt;</span>
 </span><span class='line'>        <span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">&quot;clear:both&quot;</span><span class="nt">&gt;&lt;/div&gt;</span>
@@ -236,13 +224,13 @@ rackupPid = Process.spawn("rackup --host #{server_host} --port #{server_port}")
 </span><span class='line'>        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;left&quot;</span><span class="nt">&gt;</span>
 </span><span class='line'>            <span class="nt">&lt;h1&gt;</span>Category Cloud<span class="nt">&lt;/h1&gt;</span>
 </span><span class='line'>            <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;category-cloud&quot;</span><span class="nt">&gt;</span>
-</span><span class='line'>                <span class="nt">&lt;embed</span> <span class="na">type=</span><span class="s">&#39;application/x-shockwave-flash&#39;</span> <span class="na">src=</span><span class="s">&#39;/javascripts/tagcloud.swf&#39;</span><span class="na">width=</span><span class="s">&#39;100%&#39;</span> <span class="na">height=</span><span class="s">&#39;250&#39;</span> <span class="na">bgcolor=</span><span class="s">&#39;#f2f2f2&#39;</span> <span class="na">id=</span><span class="s">&#39;tagcloudflash&#39;</span> <span class="na">name=</span><span class="s">&#39;tagcloudflash&#39;</span> <span class="na">quality=</span><span class="s">&#39;high&#39;</span> <span class="na">allowscriptaccess=</span><span class="s">&#39;always&#39;</span><span class="na">flashvars=</span><span class="s">&quot;tcolor=0x333333&amp;amp;tcolor2=0x333333&amp;amp;hicolor=0x000000&amp;amp;tspeed=100&amp;amp;distr=true&amp;amp;mode=tags&amp;amp;tagcloud=%3Ctags%3E%3Ca+href%3D%27http%3A%2F%2Fwhyalgorithm.com%2F%2Fblog%2Fcategories%2Fresearch%27+style%3D%27font-size%3A+40.0%25%27%3Eresearch%3C%2Fa%3E+%3Ca+href%3D%27http%3A%2F%2Fwhyalgorithm.com%2F%2Fblog%2Fcategories%2Ftechnic%27+style%3D%27font-size%3A+40.0%25%27%3Etechnic%3C%2Fa%3E+%3C%2Ftags%3E&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>                {% category_cloud bgcolor:#f2f2f2 %}
 </span><span class='line'>            <span class="nt">&lt;/ul&gt;</span>
 </span><span class='line'>        <span class="nt">&lt;/div&gt;</span>
 </span><span class='line'>        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;right&quot;</span><span class="nt">&gt;</span>
 </span><span class='line'>            <span class="nt">&lt;h1&gt;</span>Tag Cloud<span class="nt">&lt;/h1&gt;</span>
 </span><span class='line'>            <span class="nt">&lt;ul</span> <span class="na">id=</span><span class="s">&quot;Tag-cloud&quot;</span><span class="nt">&gt;</span>
-</span><span class='line'>                <span class="nt">&lt;embed</span> <span class="na">type=</span><span class="s">&#39;application/x-shockwave-flash&#39;</span> <span class="na">src=</span><span class="s">&#39;/javascripts/tagcloud.swf&#39;</span><span class="na">width=</span><span class="s">&#39;100%&#39;</span> <span class="na">height=</span><span class="s">&#39;250&#39;</span> <span class="na">bgcolor=</span><span class="s">&#39;#f2f2f2&#39;</span> <span class="na">id=</span><span class="s">&#39;tagcloudflash&#39;</span> <span class="na">name=</span><span class="s">&#39;tagcloudflash&#39;</span> <span class="na">quality=</span><span class="s">&#39;high&#39;</span> <span class="na">allowscriptaccess=</span><span class="s">&#39;always&#39;</span><span class="na">flashvars=</span><span class="s">&quot;tcolor=0x333333&amp;amp;tcolor2=0x333333&amp;amp;hicolor=0x000000&amp;amp;tspeed=100&amp;amp;distr=true&amp;amp;mode=tags&amp;amp;tagcloud=%3Ctags%3E%3Ca+href%3D%27http%3A%2F%2Fwhyalgorithm.com%2F%2Fblog%2Ftags%2Faccessibility%27+style%3D%27font-size%3A+40.0%25%27%3EAccessibility%3C%2Fa%3E+%3Ca+href%3D%27http%3A%2F%2Fwhyalgorithm.com%2F%2Fblog%2Ftags%2Fblog%27+style%3D%27font-size%3A+40.0%25%27%3EBlog%3C%2Fa%3E+%3Ca+href%3D%27http%3A%2F%2Fwhyalgorithm.com%2F%2Fblog%2Ftags%2Fcloud9%27+style%3D%27font-size%3A+40.0%25%27%3ECloud9%3C%2Fa%3E+%3Ca+href%3D%27http%3A%2F%2Fwhyalgorithm.com%2F%2Fblog%2Ftags%2Fgis%27+style%3D%27font-size%3A+40.0%25%27%3EGIS%3C%2Fa%3E+%3Ca+href%3D%27http%3A%2F%2Fwhyalgorithm.com%2F%2Fblog%2Ftags%2Fgithub%27+style%3D%27font-size%3A+40.0%25%27%3EGithub%3C%2Fa%3E+%3Ca+href%3D%27http%3A%2F%2Fwhyalgorithm.com%2F%2Fblog%2Ftags%2Foctopress%27+style%3D%27font-size%3A+40.0%25%27%3EOctopress%3C%2Fa%3E+%3C%2Ftags%3E&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>                {% tag_cloud bgcolor:#f2f2f2 %}
 </span><span class='line'>            <span class="nt">&lt;/ul&gt;</span>
 </span><span class='line'>        <span class="nt">&lt;/div&gt;</span>
 </span><span class='line'>        <span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">&quot;clear:both&quot;</span><span class="nt">&gt;&lt;/div&gt;</span>
