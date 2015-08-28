@@ -89,8 +89,8 @@ Jekyll和Octopress是类似于Wordpress的平台，可以安装任意主题(Them
 
 1. `category_generator.rb`直接用自带的，不用替换。
 2. 缺`source/_layouts/tag_index.html`。 解决方法： 新建`tag_index.html`, 复制`category_index.html`的代码。把categories改成tags, 把category改成tag。
-2. 缺`source/_includes/custom/tag_feed.xml`。解决方法： 新建`tag_feed.xml`, 复制`category_feed.xml`的代码。把categories改成tags, 把category改成tag。
-1. 缺`source/javascripts/tagcloud.swf`。 解决方法：在[这里](https://github.com/shangfu/shangfu.github.io/tree/source/source/javascripts) 把`tagcloud.swf` 下载下来，并且放到对应目录。
+3. 缺`source/_includes/custom/tag_feed.xml`。解决方法： 新建`tag_feed.xml`, 复制`category_feed.xml`的代码。把categories改成tags, 把category改成tag。
+4. 缺`source/javascripts/tagcloud.swf`。 解决方法：在[这里](https://github.com/shangfu/shangfu.github.io/tree/source/source/javascripts) 把`tagcloud.swf` 下载下来，并且放到对应目录。
 
 另外由于我的主题没有设置边栏(asides)，所以我新建了一个page, named category, 来显示categories和tags的结果。
 
