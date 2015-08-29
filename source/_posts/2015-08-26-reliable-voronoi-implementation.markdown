@@ -44,7 +44,6 @@ Using Boost Voronoi, my Voronoi computation for 24 million road vertices just sp
 install `libboost-dev` in Ubuntu Software Center. Note that in the output of this code, every Voronoi edge will be reported twice.  
 
 {% codeblock lang:cpp voronoi.cpp %}
-{% raw %}
 #include "boost/polygon/voronoi.hpp"
 #include <iostream>
 
@@ -110,7 +109,6 @@ int main(int argc, char* argv[])
     }
     return 0;
 }
-{% endraw %}
 {% endcodeblock %}
 
 
