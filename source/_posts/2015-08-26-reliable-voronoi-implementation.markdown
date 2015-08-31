@@ -43,7 +43,7 @@ As the Benchmark said,
 Using Boost Voronoi, my Voronoi computation for 24 million road vertices just speeds around 10 mins. Here is my simple code after 
 install `libboost-dev` in Ubuntu Software Center. Note that in the output of this code, every Voronoi edge will be reported twice.  
 
-{% codeblock lang:cpp voronoi.cpp %}
+```c++
 #include "boost/polygon/voronoi.hpp"
 #include <iostream>
 
@@ -109,7 +109,7 @@ int main(int argc, char* argv[])
     }
     return 0;
 }
-{% endcodeblock %}
+```
 
 
 ## CGAL library
