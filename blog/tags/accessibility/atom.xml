@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: Accessibility | 何以算法]]></title>
   <link href="http://whyalgorithm.com//blog/tags/accessibility/atom.xml" rel="self"/>
   <link href="http://whyalgorithm.com//"/>
-  <updated>2015-08-31T14:40:01+00:00</updated>
+  <updated>2015-09-30T01:10:49+00:00</updated>
   <id>http://whyalgorithm.com//</id>
   <author>
     <name><![CDATA[WhyAlgorithm]]></name>
@@ -27,7 +27,7 @@
 
 <ul>
 <li><p>State Smart Transportation Initiative (<a href="http://www.ssti.us">SSTI</a>)</p></li>
-<li><p>Example: how many jobs can be accessed within X minitues by bus/transit/auto. We can draw an accessibility intensity distribution.
+<li><p>Example: how many jobs can be accessed within X minutes by bus/transit/auto. We can draw an accessibility intensity distribution.
 Furthermore, draw the intensity distribution every minute varying the traffic from 7am-9am, and then average them to get
 the picture about accessibility in traffic.</p></li>
 <li><p>$$

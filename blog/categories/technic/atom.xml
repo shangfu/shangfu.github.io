@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Technic | 何以算法]]></title>
   <link href="http://whyalgorithm.com//blog/categories/technic/atom.xml" rel="self"/>
   <link href="http://whyalgorithm.com//"/>
-  <updated>2015-08-31T14:40:01+00:00</updated>
+  <updated>2015-09-30T01:10:49+00:00</updated>
   <id>http://whyalgorithm.com//</id>
   <author>
     <name><![CDATA[WhyAlgorithm]]></name>
@@ -12,6 +12,143 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Reliable Fortune's Algorithm Implementation]]></title>
+    <link href="http://whyalgorithm.com//blog/2015/08/26/reliable-voronoi-implementation/"/>
+    <updated>2015-08-26T19:30:06+00:00</updated>
+    <id>http://whyalgorithm.com//blog/2015/08/26/reliable-voronoi-implementation</id>
+    <content type="html"><![CDATA[<p style="text-align:center;"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Fortunes-algorithm-slowed.gif" alt="Wiki" /></p>
+
+<p>Fortune&rsquo;s algorithm is a sweep line algorithm for generating
+a Voronoi diagram from a set of points in a plane using \(O(n log n)\) time and \(O(n)\) space
+[<a href="https://en.wikipedia.org/wiki/Fortune%27s_algorithm">Wiki</a>].</p>
+
+<p>I have one subtask that need to generate a Voronoi diagram for 24 million vertices in the USA road network.
+As far as I tested, many Fortune&rsquo;s algorithm implementations online are not reliable.
+They may be OK to generate the Voronoi diagram from random points, but sometimes shitty
+to process the points that are concyclic.
+For example, few of them can solve the simple case even for 4 points,
+$$(0,0), (0,1), (1,0), (1,1)$$
+On the other hand, some implementations that can pass my small test cases still face the speed problem
+for 24 million vertices.</p>
+
+<p>Finally, I recommand three implementations:</p>
+
+<h2>Boost.Polygon Voronoi</h2>
+
+<p>A little ashamed that I did not know Boost has also implemented Voronoi. It is the last implementation I tried,
+but I should recommand it first since it is super easy to use.
+Here is the Boost Voronoi
+<a href="http://www.boost.org/doc/libs/1_54_0/libs/polygon/doc/voronoi_main.htm">Main Page</a> and
+<a href="http://www.boost.org/doc/libs/1_54_0/libs/polygon/doc/voronoi_benchmark.htm">Benchmark</a> compared with CGAL and S-Hull
+(related to qhull)
+As the Benchmark said,</p>
+
+<ul>
+<li>Boost.Polygon Voronoi - implements sweep-line algorithm.</li>
+<li>CGAL - implements incremental algorithm.</li>
+<li>S-Hull - S-Hull is a <strong>non-robust implementation</strong> of the sweep-hull algorithm used to construct Delaunay triangulation of a set of points.</li>
+</ul>
+
+
+<p>Using Boost Voronoi, my Voronoi computation for 24 million road vertices just speeds around 10 mins. Here is my simple code after
+install <code>libboost-dev</code> in Ubuntu Software Center. Note that in the output of this code, every Voronoi edge will be reported twice.</p>
+
+<pre><code class="c++">#include "boost/polygon/voronoi.hpp"
+#include &lt;iostream&gt;
+
+using namespace boost::polygon;
+
+typedef double coordinate_type;
+typedef point_data&lt;coordinate_type&gt; Point;
+typedef voronoi_diagram&lt;double&gt; VD;
+
+int main(int argc, char* argv[])
+{
+    std::vector&lt;Point&gt; points;
+
+//    points.push_back(Point(0, 0));
+//    points.push_back(Point(1, 0));
+//    points.push_back(Point(0, 1));
+//    points.push_back(Point(1, 1));
+    int n;
+    std::cin&gt;&gt;n;
+    double x,y;
+    for (int i=0; i&lt;n; i++) {
+        std::cin&gt;&gt;x&gt;&gt;y;
+        points.push_back(Point(x,y));
+    }
+    VD vd;
+    construct_voronoi(points.begin(), points.end(), &amp;vd);
+
+    for (VD::const_edge_iterator it = vd.edges().begin(); it != vd.edges().end(); ++it)
+    {
+        if (it-&gt;is_primary())
+        {
+            if (it-&gt;is_finite())
+            {
+                std::cout&lt;&lt;"("&lt;&lt;it-&gt;vertex0()-&gt;x()&lt;&lt;","&lt;&lt;it-&gt;vertex0()-&gt;y()&lt;&lt;") --- ("&lt;&lt;it-&gt;vertex1()-&gt;x()&lt;&lt;","&lt;&lt;it-&gt;vertex1()-&gt;y()&lt;&lt;")"&lt;&lt;std::endl;
+            }
+            else
+            {
+                Point p1 = points[it-&gt;cell()-&gt;source_index()];
+                Point p2 = points[it-&gt;twin()-&gt;cell()-&gt;source_index()];
+                Point origin;
+                Point direction;
+                coordinate_type koef = 1.0;
+
+                origin.x((p1.x() + p2.x()) * 0.5);
+                origin.y((p1.y() + p2.y()) * 0.5);
+                direction.x(p1.y() - p2.y());
+                direction.y(p2.x() - p1.x());
+                if (it-&gt;vertex0() == NULL){
+                    std::cout&lt;&lt;"("&lt;&lt;    origin.x() - direction.x() * koef&lt;&lt;","&lt;&lt;origin.y() - direction.y() * koef&lt;&lt;") --- ";
+                }
+                else{
+                    std::cout&lt;&lt;"("&lt;&lt;it-&gt;vertex0()-&gt;x()&lt;&lt;","&lt;&lt;it-&gt;vertex0()-&gt;y()&lt;&lt;")  --- ";
+                }
+
+                if (it-&gt;vertex1() == NULL){
+                    std::cout&lt;&lt;"("&lt;&lt;origin.x() + direction.x() * koef&lt;&lt;","&lt;&lt;origin.y() + direction.y() * koef&lt;&lt;")"&lt;&lt;std::endl;                
+                }
+                else{
+                    std::cout&lt;&lt;"("&lt;&lt;it-&gt;vertex1()-&gt;x()&lt;&lt;","&lt;&lt;it-&gt;vertex1()-&gt;y()&lt;&lt;")"&lt;&lt;std::endl;
+                }
+            }
+        }
+    }
+    return 0;
+}
+</code></pre>
+
+<h2>CGAL library</h2>
+
+<p>As mentioned by Boost Voronoi, CGAL implements incremental algorithm.
+The obscurest thing of CGAL is the compiling process.</p>
+
+<p>It is better to use <code>cmake</code> to link your program to CGAL libraries as follows.</p>
+
+<ol>
+<li><p>Install <code>libcgal-dev</code> and <code>libcgal-demo</code> in Ubuntu Software Center. I think it should automatically install Boost C++ libraries as well.
+If not, you need to install <code>libboost-dev</code> in Ubuntu Software Center.</p></li>
+<li><p>In order to compile your program correctly, you&rsquo;d better to generate <code>CMakeLists.txt</code> by running <code>cgal_create_cmake_script</code> command
+in Terminal. In particular, you should run the following commands in your program folder:</p></li>
+</ol>
+
+
+<pre><code>cgal_create_cmake_script   #generate CMakeLists.txt
+cmake .                    #generate Makefile, CMakeFiles folder, and two extra files
+make                       #automatically compile your .cpp files
+</code></pre>
+
+<h2>Brad Barber&rsquo;s Qhull program</h2>
+
+<p><a href="http://www.qhull.org/">Qhull</a> is also easy to use. Just download and decompressed the package, and then <code>make</code> it.
+The examples of Qhull are clear. <code>rbox</code> command can generate the example input format, and then use <code>qvoronoi</code>
+to compute Voronoi diagram.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[快速搭建Github Page个人博客]]></title>

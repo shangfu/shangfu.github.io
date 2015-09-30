@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://whyalgorithm.com//blog/2015/08/31/back-in-the-future/</loc>
+    <lastmod>2015-08-31T18:48:08+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://whyalgorithm.com//blog/2015/08/26/reliable-voronoi-implementation/</loc>
     <lastmod>2015-08-26T19:30:06+00:00</lastmod>
   </url>
@@ -35,7 +39,7 @@
     <loc>http://whyalgorithm.com//blog/categories/research/</loc>
   </url>
   <url>
-    <loc>http://whyalgorithm.com//blog/categories/algorithm/</loc>
+    <loc>http://whyalgorithm.com//blog/categories/fantasy/</loc>
   </url>
   <url>
     <loc>http://whyalgorithm.com//blog/tags/blog/</loc>
@@ -66,5 +70,14 @@
   </url>
   <url>
     <loc>http://whyalgorithm.com//blog/tags/cgal/</loc>
+  </url>
+  <url>
+    <loc>http://whyalgorithm.com//blog/tags/alcor/</loc>
+  </url>
+  <url>
+    <loc>http://whyalgorithm.com//blog/tags/cryonics/</loc>
+  </url>
+  <url>
+    <loc>http://whyalgorithm.com//blog/tags/life-science/</loc>
   </url>
 </urlset>
