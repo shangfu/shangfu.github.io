@@ -15,7 +15,7 @@ tags: [GIS, Accessibility]
 
 - State Smart Transportation Initiative ([SSTI](http://www.ssti.us))
 
-- Example: how many jobs can be accessed within X minitues by bus/transit/auto. We can draw an accessibility intensity distribution. 
+- Example: how many jobs can be accessed within X minutes by bus/transit/auto. We can draw an accessibility intensity distribution. 
 Furthermore, draw the intensity distribution every minute varying the traffic from 7am-9am, and then average them to get 
 the picture about accessibility in traffic.
 

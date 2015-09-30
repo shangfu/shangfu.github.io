@@ -3,7 +3,7 @@ layout: post
 title: "Reliable Fortune's algorithm implementation"
 date: 2015-08-26 19:30:06 +0000
 comments: true
-categories: Algorithm
+categories: Technic
 tags: [Voronoi, Fortune's algorithm, Boost, CGAL]
 ---
 
