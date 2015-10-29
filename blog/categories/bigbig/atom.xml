@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Bigbig | 何以算法]]></title>
+  <link href="http://whyalgorithm.com//blog/categories/bigbig/atom.xml" rel="self"/>
+  <link href="http://whyalgorithm.com//"/>
+  <updated>2015-10-29T15:56:54+00:00</updated>
+  <id>http://whyalgorithm.com//</id>
+  <author>
+    <name><![CDATA[WhyAlgorithm]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Interest Me of Sep. 2015]]></title>
+    <link href="http://whyalgorithm.com//blog/2015/09/30/interest-me-of-sep-2015/"/>
+    <updated>2015-09-30T14:45:05+00:00</updated>
+    <id>http://whyalgorithm.com//blog/2015/09/30/interest-me-of-sep-2015</id>
+    <content type="html"><![CDATA[<h3>NASA confirms evidence that Liquid Water Flows (with hydrated salts) on Today’s Mars</h3>
+
+<p>Lujendra Ojha (PhD student),  Mary Beth Wilhelm (NASA researcher),  Jim Green (big man),
+Michael Meyer (big man), Alfred McEwen (big man) attended the NASA news conference.</p>
+
+<h3>Terence Tao posted his solution for the Erdos discrepancy problem</h3>
+
+<p>They show that for <strong>any</strong> sequence \( f: N \rightarrow \{-1,1\} \),  the discrepancy of \(f\) is finite, i.e., \(
+\sup_{n,d \in N}{  \sum_{j=1}^{n} f(jd)  }
+\)</p>
+
+<h3>Google showcased their driverless cars</h3>
+
+<p>Google’s driverless car team showcased their progress  during a live stream broadcast
+from San Francisco, explaining they are close to having a system as efficient as a computer
+but with humanlike abilities to spot cues like hand signals and avoid accidents.</p>
+]]></content>
+  </entry>
+  
+</feed>
