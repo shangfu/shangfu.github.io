@@ -4,7 +4,7 @@
   <title><![CDATA[何以算法]]></title>
   <link href="http://whyalgorithm.com//atom.xml" rel="self"/>
   <link href="http://whyalgorithm.com//"/>
-  <updated>2015-10-29T15:58:18+00:00</updated>
+  <updated>2015-12-01T19:35:16+00:00</updated>
   <id>http://whyalgorithm.com//</id>
   <author>
     <name><![CDATA[WhyAlgorithm]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Interest Me of Nov. 2015]]></title>
+    <link href="http://whyalgorithm.com//blog/2015/12/01/interest-me-of-nov-2015/"/>
+    <updated>2015-12-01T19:31:33+00:00</updated>
+    <id>http://whyalgorithm.com//blog/2015/12/01/interest-me-of-nov-2015</id>
+    <content type="html"><![CDATA[<h3>Formula E announces ‘Roborace,’ the first driverless car race series</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Interest Me of Oct. 2015]]></title>
+    <link href="http://whyalgorithm.com//blog/2015/10/01/interest-me-of-oct-2015/"/>
+    <updated>2015-10-01T20:15:36+00:00</updated>
+    <id>http://whyalgorithm.com//blog/2015/10/01/interest-me-of-oct-2015</id>
+    <content type="html"><![CDATA[<h3>Nobel Prizes</h3>
+
+<h3>Real games using Oculus Rift in Oculus Connect 2015</h3>
+
+<h3>Tesla Model X</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Interest Me of Sep. 2015]]></title>

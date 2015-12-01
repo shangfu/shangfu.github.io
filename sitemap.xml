@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://whyalgorithm.com//blog/2015/12/01/interest-me-of-nov-2015/</loc>
+    <lastmod>2015-12-01T19:31:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://whyalgorithm.com//blog/2015/10/01/interest-me-of-oct-2015/</loc>
+    <lastmod>2015-10-01T20:15:36+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://whyalgorithm.com//blog/2015/09/30/interest-me-of-sep-2015/</loc>
     <lastmod>2015-09-30T14:45:05+00:00</lastmod>
   </url>
@@ -31,10 +39,10 @@
     <loc>http://whyalgorithm.com//</loc>
   </url>
   <url>
-    <loc>http://whyalgorithm.com//category/</loc>
+    <loc>http://whyalgorithm.com//about/</loc>
   </url>
   <url>
-    <loc>http://whyalgorithm.com//about/</loc>
+    <loc>http://whyalgorithm.com//category/</loc>
   </url>
   <url>
     <loc>http://whyalgorithm.com//blog/categories/technic/</loc>
