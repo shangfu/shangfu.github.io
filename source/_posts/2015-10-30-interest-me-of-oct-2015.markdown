@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Interest Me of Oct. 2015"
+title: "Interest Me in Oct. 2015"
 date: 2015-10-01 20:15:36 +0000
 comments: true
-categories: 
+categories: BigBig
+tags: 
 ---
 
 
