@@ -4,7 +4,7 @@
   <title><![CDATA[何以算法]]></title>
   <link href="http://whyalgorithm.com//atom.xml" rel="self"/>
   <link href="http://whyalgorithm.com//"/>
-  <updated>2015-12-01T19:35:16+00:00</updated>
+  <updated>2015-12-20T17:25:19+00:00</updated>
   <id>http://whyalgorithm.com//</id>
   <author>
     <name><![CDATA[WhyAlgorithm]]></name>
@@ -14,7 +14,18 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Interest Me of Nov. 2015]]></title>
+    <title type="html"><![CDATA[Interest Me in Dec. 2015]]></title>
+    <link href="http://whyalgorithm.com//blog/2015/12/31/interest-me-of-dec-2015/"/>
+    <updated>2015-12-31T17:06:43+00:00</updated>
+    <id>http://whyalgorithm.com//blog/2015/12/31/interest-me-of-dec-2015</id>
+    <content type="html"><![CDATA[<h3>Facebook 2015 year in review, <a href="http://yearinreview.fb.com/2015/">HERE</a></h3>
+
+<h3>Satoshi is probably Craig Wright, who is an Australian. However, Satoshi claimed Craig Wright is not.  &ldquo;Satoshi&rdquo; perhaps means a group.</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Interest Me in Nov. 2015]]></title>
     <link href="http://whyalgorithm.com//blog/2015/12/01/interest-me-of-nov-2015/"/>
     <updated>2015-12-01T19:31:33+00:00</updated>
     <id>http://whyalgorithm.com//blog/2015/12/01/interest-me-of-nov-2015</id>
@@ -23,7 +34,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Interest Me of Oct. 2015]]></title>
+    <title type="html"><![CDATA[Interest Me in Oct. 2015]]></title>
     <link href="http://whyalgorithm.com//blog/2015/10/01/interest-me-of-oct-2015/"/>
     <updated>2015-10-01T20:15:36+00:00</updated>
     <id>http://whyalgorithm.com//blog/2015/10/01/interest-me-of-oct-2015</id>
@@ -36,7 +47,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Interest Me of Sep. 2015]]></title>
+    <title type="html"><![CDATA[Interest Me in Sep. 2015]]></title>
     <link href="http://whyalgorithm.com//blog/2015/09/30/interest-me-of-sep-2015/"/>
     <updated>2015-09-30T14:45:05+00:00</updated>
     <id>http://whyalgorithm.com//blog/2015/09/30/interest-me-of-sep-2015</id>
