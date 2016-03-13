@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Fantasy | 何以算法]]></title>
   <link href="http://whyalgorithm.com//blog/categories/fantasy/atom.xml" rel="self"/>
   <link href="http://whyalgorithm.com//"/>
-  <updated>2015-12-20T17:29:06+00:00</updated>
+  <updated>2016-03-13T09:03:07+00:00</updated>
   <id>http://whyalgorithm.com//</id>
   <author>
     <name><![CDATA[WhyAlgorithm]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[对战AlphaGo的首胜]]></title>
+    <link href="http://whyalgorithm.com//blog/2016/03/13/alphago/"/>
+    <updated>2016-03-13T08:56:02+00:00</updated>
+    <id>http://whyalgorithm.com//blog/2016/03/13/alphago</id>
+    <content type="html"><![CDATA[<p>今天通宵看完了李世石对战AlphaGo的第四场。很不容易，感谢李世石能赢上一盘。</p>
+
+<p>AI就像一列迎面开来的火车。它临近，我听到了轰隆隆的声音。我在不断期待着它的到来。
+它终于到了，在它一闪而过并远远地把人类抛在身后之前，我希望它能在我身边停留哪怕一小会&mdash;&mdash;因为我想上车！</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[在未来醒来]]></title>

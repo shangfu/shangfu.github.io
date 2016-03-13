@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Bigbig | 何以算法]]></title>
   <link href="http://whyalgorithm.com//blog/categories/bigbig/atom.xml" rel="self"/>
   <link href="http://whyalgorithm.com//"/>
-  <updated>2015-12-20T17:29:06+00:00</updated>
+  <updated>2016-03-13T09:03:07+00:00</updated>
   <id>http://whyalgorithm.com//</id>
   <author>
     <name><![CDATA[WhyAlgorithm]]></name>
@@ -30,6 +30,8 @@
     <updated>2015-12-01T19:31:33+00:00</updated>
     <id>http://whyalgorithm.com//blog/2015/12/01/interest-me-of-nov-2015</id>
     <content type="html"><![CDATA[<h3>Formula E announces ‘Roborace,’ the first driverless car race series</h3>
+
+<h3>How Uber engineers an efficient route, <a href="https://eng.uber.com/engineering-an-efficient-route/">HERE</a></h3>
 ]]></content>
   </entry>
   
